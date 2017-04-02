@@ -25,7 +25,7 @@ public class MapperProxyHandler<T> implements InvocationHandler{
 		Message message;
 		message= new Message(1);messageList.add(message);
 		message= new Message(2);messageList.add(message);
-		message= new Message(2);messageList.add(message);
+		message= new Message(3);messageList.add(message);
 		
 		return messageList;
 	}
